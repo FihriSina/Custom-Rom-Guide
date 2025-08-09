@@ -29,7 +29,7 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 
 ### 3. Custom Recovery Yükleme
 
-- Odin’de **AP** butonuna tıklayın ve custom recovery `.tar` dosyasını seçin.  
+- Odin’de **AP** butonuna tıklayın ve custom recovery `.tar` dosyasını(twrp dosyası) seçin.  
 - **Options** kısmında **Auto Reboot** seçeneğinin işaretini kaldırın.  
 - **Start** butonuna basarak yüklemeyi başlatın.  
 - İşlem tamamlandığında Odin "PASS" mesajı verecektir.
