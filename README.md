@@ -1,7 +1,6 @@
 # Custom ROM Yükleme Rehberi
 
 Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adım yapılması gereken işlemleri anlatır.
-
 ---
 
 ## Notlar
@@ -9,8 +8,6 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 - Yedeklerinizi almadan bu işlemleri yapmayın.  
 - Yanlış ROM veya recovery yüklenmesi cihazınızda ciddi sorunlara yol açabilir.  
 - Bu işlem garanti kapsamı dışına çıkartabilir.
-
----
 
 ## Gereksinimler
 
@@ -70,7 +67,6 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 # Custom ROM Installation Guide
 
 This guide explains step-by-step how to install a custom recovery and custom ROM on your device.
-
 ---
 
 ## Notes
@@ -78,8 +74,6 @@ This guide explains step-by-step how to install a custom recovery and custom ROM
 - Always back up your data before proceeding.  
 - Installing the wrong ROM or recovery can cause serious issues.  
 - This process may void your warranty.
-
----
 
 ## Requirements
 
