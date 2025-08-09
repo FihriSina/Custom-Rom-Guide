@@ -10,7 +10,7 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 - Cihaza uygun **Custom Recovery (.tar dosyası)**  
 - İndirilen ve kurulacak **Custom ROM (.zip dosyası)**  
 - Cihazınız ile bilgisayar arasında iletişim kurmak için gerekli **USB sürücüleri**  
-- USB kablosu (orijinal veya kaliteli)
+- USB kablosu 
 
 ---
 
