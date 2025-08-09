@@ -37,7 +37,7 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 ### 4. Recovery Moduna Geçiş
 
 - Cihaz otomatik açılmaz, cihazı kapatın.  
-- Gerekli tuş kombinasyonu ile recovery moduna geçin.
+- Gerekli tuş kombinasyonu ile recovery moduna geçin(Kısaca TWRP' ye girin).
 
 ### 5. Recovery’de Temizlik
 
