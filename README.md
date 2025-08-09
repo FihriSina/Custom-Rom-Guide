@@ -46,7 +46,7 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 
 ### 6. Custom ROM Yükleme
 
-- Cihazı USB ile bilgisayara bağlayın.  
+- Cihazı USB ile bilgisayara bağlayın.(Zaten bağlıysa da problem yok)  
 - Recovery’de **Mount > Enable MTP** seçeneğini açın.  
 - Bilgisayarınızdan custom ROM `.zip` dosyasını cihazın iç depolamasına kopyalayın.  
 - Recovery’den **Install** seçeneğine giderek `.zip` dosyasını seçin ve kurulumu başlatın.  
