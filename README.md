@@ -4,6 +4,14 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 
 ---
 
+## Notlar
+
+- Yedeklerinizi almadan bu işlemleri yapmayın.  
+- Yanlış ROM veya recovery yüklenmesi cihazınızda ciddi sorunlara yol açabilir.  
+- Bu işlem garanti kapsamı dışına çıkartabilir.
+
+---
+
 ## Gereksinimler
 
 - **Odin** veya uygun flash aracı (Windows için)  
@@ -47,8 +55,8 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 ### 6. Custom ROM Yükleme
 
 - Cihazı USB ile bilgisayara bağlayın.(Zaten bağlıysa da problem yok)  
-- Recovery’de **Mount > Enable MTP** seçeneğini açın.  
-- Bilgisayarınızdan custom ROM `.zip` dosyasını cihazın iç depolamasına kopyalayın.  
+- Recovery’de **Mount > Enable MTP** seçeneğini açın.(Telefonunuzu pc' den görüp içine os atmmamız için)  
+- Bilgisayarınızdan custom ROM `.zip` dosyasını cihazın iç depolamasına kopyalayın(Kısaca LineageOS, RevengeOS... dosyanızı pcden telefona kopyala yapıştır yapmak için).  
 - Recovery’den **Install** seçeneğine giderek `.zip` dosyasını seçin ve kurulumu başlatın.  
 - Kurulum tamamlandıktan sonra **Wipe Cache/Dalvik** işlemini yapın.
 
@@ -59,12 +67,3 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 
 ---
 
-## Notlar
-
-- Yedeklerinizi almadan bu işlemleri yapmayın.  
-- Yanlış ROM veya recovery yüklenmesi cihazınızda ciddi sorunlara yol açabilir.  
-- Bu işlem garanti kapsamı dışına çıkartabilir.
-
----
-
-Bu rehberi takip ederek custom ROM yükleme işleminizi güvenli ve sistematik şekilde yapabilirsiniz.
