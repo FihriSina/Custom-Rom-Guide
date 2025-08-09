@@ -67,3 +67,72 @@ Bu rehber, cihazınıza custom recovery ve custom ROM yüklemek için adım adı
 
 ---
 
+# Custom ROM Installation Guide
+
+This guide explains step-by-step how to install a custom recovery and custom ROM on your device.
+
+---
+
+## Notes
+
+- Always back up your data before proceeding.  
+- Installing the wrong ROM or recovery can cause serious issues.  
+- This process may void your warranty.
+
+---
+
+## Requirements
+
+- **Odin** or a suitable flashing tool (for Windows)  
+- A compatible **Custom Recovery (.tar file)**  
+- The **Custom ROM (.zip file)** to be installed  
+- Necessary **USB drivers** to connect your device to the PC  
+- USB cable  
+
+---
+
+## Steps
+
+### 1. Preparation
+
+- Power off your device.  
+- Install USB drivers on your computer.  
+- Download and launch the Odin program.
+
+### 2. Enter Download Mode
+
+- With the device powered off, use the correct button combination to enter Download Mode.  
+- Connect your device to the PC. You should see a color change in Odin’s connection box indicating successful connection.
+
+### 3. Flash Custom Recovery
+
+- In Odin, click the **AP** button and select the custom recovery `.tar` file (e.g. TWRP).  
+- In the **Options** section, uncheck **Auto Reboot**.  
+- Click **Start** to begin flashing.  
+- Once completed, Odin will display a “PASS” message.
+
+### 4. Enter Recovery Mode
+
+- The device will not reboot automatically. Power it off manually.  
+- Use the button combination to enter recovery mode (i.e. enter TWRP).
+
+### 5. Wipe Data in Recovery
+
+- In the **Wipe** menu, select **Dalvik / ART Cache**, **Cache**, **System**, and **Data** partitions to wipe.  
+- Return to the main menu.
+
+### 6. Install Custom ROM
+
+- Connect your device to the PC via USB (if not already connected).  
+- In Recovery, go to **Mount > Enable MTP** (to allow PC access to device storage).  
+- Copy the custom ROM `.zip` file (e.g. LineageOS, RevengeOS) from your PC to your device’s internal storage.  
+- In Recovery, select **Install**, locate the `.zip` file, and swipe to flash it.  
+- After installation, perform **Wipe Cache/Dalvik**.
+
+### 7. Reboot Device
+
+- From the main menu, select **Reboot System**.  
+- The first boot may take some time, please be patient.
+
+---
+
